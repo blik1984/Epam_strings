@@ -1,8 +1,8 @@
 
 /*
 * Strings
- * Строка как объект, задание 3
- *Проверить является ли слово палиндромом
+ * РЎС‚СЂРѕРєР° РєР°Рє РѕР±СЉРµРєС‚, Р·Р°РґР°РЅРёРµ 3
+ *РџСЂРѕРІРµСЂРёС‚СЊ СЏРІР»СЏРµС‚СЃСЏ Р»Рё СЃР»РѕРІРѕ РїР°Р»РёРЅРґСЂРѕРјРѕРј
  */
 
 package by.epam.java.strings.string_as_object_2;
@@ -14,7 +14,7 @@ public class String_as_object_2_3 {
 	public static void main(String[] args) {
 		
 		ArrayList<String> masStr = new ArrayList<>();
-		masStr.add("");			//по сути пустота тоже палиндром, с какой стороны на неё ни посмотри
+		masStr.add("");			//РїРѕ СЃСѓС‚Рё РїСѓСЃС‚РѕС‚Р° С‚РѕР¶Рµ РїР°Р»РёРЅРґСЂРѕРј, СЃ РєР°РєРѕР№ СЃС‚РѕСЂРѕРЅС‹ РЅР° РЅРµС‘ РЅРё РїРѕСЃРјРѕС‚СЂРё
 		masStr.add("112211");
 		masStr.add("masVar2");
 		masStr.add("ara");
@@ -28,7 +28,7 @@ public class String_as_object_2_3 {
 			rev.reverse();
 			String revStr = ""+rev;
 			if(revStr.equalsIgnoreCase(Str)) {
-				System.out.println("Слово " + masStr.get(i) + " является палиндромом");
+				System.out.println("РЎР»РѕРІРѕ " + masStr.get(i) + " СЏРІР»СЏРµС‚СЃСЏ РїР°Р»РёРЅРґСЂРѕРјРѕРј");
 			}
 		}
 	}
