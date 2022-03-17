@@ -1,8 +1,8 @@
 
 /*
 * Strings
- * Строка как объект, задание 2
- *В строке после каждого символа "а" вставить символ "b"
+ * РЎС‚СЂРѕРєР° РєР°Рє РѕР±СЉРµРєС‚, Р·Р°РґР°РЅРёРµ 2
+ *Р’ СЃС‚СЂРѕРєРµ РїРѕСЃР»Рµ РєР°Р¶РґРѕРіРѕ СЃРёРјРІРѕР»Р° "Р°" РІСЃС‚Р°РІРёС‚СЊ СЃРёРјРІРѕР» "b"
  */
 
 package by.epam.java.strings.string_as_object_2;
@@ -14,7 +14,7 @@ public class String_as_object_2_2 {
 		String str = " a  22vmadgtj  w5or6ad66  a  dr6 66m6ilo84aa23dvt  w0ord9 45a265 87dir45     mtoiv word55  a    a";
 		String sample = "a";
 		String sample2 = "b";
-		System.out.println("Исходная строка: " + str);
+		System.out.println("РСЃС…РѕРґРЅР°СЏ СЃС‚СЂРѕРєР°: " + str);
 		for(int i = 0; i<str.length(); i++) {
 			
 			String ch = str.substring(i,(i+1));
@@ -23,6 +23,7 @@ public class String_as_object_2_2 {
 				str = str.substring(0,i+1) + sample2+str.substring((i+1), str.length());
 			}
 		}
-		System.out.println("Измененная строка: " + str);
+		System.out.println("РР·РјРµРЅРµРЅРЅР°СЏ СЃС‚СЂРѕРєР°: " + str);
 	}
 }
+
